@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+:root {
+  --dark-black: #292524;
+  --darkest-grey: #44403c;
+  --darker-grey: #57534e;
+  --dark-grey: #78716c;
+  --medium-grey: #a8a29e;
+  --light-grey: #e2e8f0;
+  --off-white: #fafaf9;
+  --dark-blue: #3b82f6;
+  --medium-blue: #60a5fa;
+  --light-blue: #93c5fd;
+  --lighter-blue: #bfdbfe;
+  --lightest-blue: #dbeafe;
+  --white-color: white;
+  --bg-color: #eff6ff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.nav-standard {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--white-color);
+}
+.ranger-ui {
+  color: var(--medium-blue);
+}
+.social-links {
+  color: var(--medium-blue);
+}
+.nav-standard-list-item:hover {
+  background-color: var(--off-white);
+}
+
+/* home page */
+img {
+  width: 100%;
+}
+.home-page {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+.home-page-title {
+  font-size: 3rem;
+}
+.get-started-text {
+  align-items: center;
+}
+.intro-text {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+.primary-btn-sm {
+  height: 4rem;
+  width: 12rem;
+  font-size: 1.5rem;
+  color: var(--dark-black);
+}
+.text-black {
+  color: var(--dark-black);
+}
+/* category page */
+.category-page {
+  margin-top: 4rem;
+  height: 100%;
+  min-height: 100vh;
+  gap: 2rem;
+  background-color: var(--bg-color);
+}
+.card-row {
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.category-page-title {
+  padding-top: 2rem;
+  color: var(--darkest-grey);
+}
