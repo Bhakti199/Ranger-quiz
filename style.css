@@ -30,6 +30,9 @@ body {
 .text-black {
   color: var(--dark-black);
 }
+.text-grey {
+  color: var(--darker-grey);
+}
 .nav-standard {
   position: fixed;
   top: 0;
@@ -125,4 +128,40 @@ img {
 }
 .instruction-list-item {
   margin-bottom: 10px;
+}
+/* question page */
+.question-container {
+  background-color: var(--white-color);
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.question {
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+.question-no {
+  margin-right: auto;
+}
+.question-text {
+  text-align: justify;
+}
+.option-list {
+  padding-left: 0;
+}
+.option-list-item {
+  margin-bottom: 10px;
+}
+.option-btn {
+  border: 2px solid var(--medium-grey);
+  background-color: var(--off-white);
+  border-radius: 2rem;
+  width: 40rem;
+}
+.option-btn:hover {
+  background-color: var(--medium-grey);
+}
+/* submit */
+.submit-part {
+  margin: 1rem 0;
+  justify-content: center;
 }
