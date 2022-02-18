@@ -27,6 +27,9 @@ body {
 .text-center {
   text-align: center;
 }
+.text-black {
+  color: var(--dark-black);
+}
 .nav-standard {
   position: fixed;
   top: 0;
@@ -67,15 +70,13 @@ img {
   font-size: 1.5rem;
   text-align: justify;
 }
-.primary-btn-sm {
+.explore-btn {
   height: 4rem;
   width: 12rem;
   font-size: 1.5rem;
   color: var(--dark-black);
 }
-.text-black {
-  color: var(--dark-black);
-}
+
 /* category page */
 .category-page {
   margin-top: 4rem;
@@ -93,4 +94,35 @@ img {
 .category-page-title {
   padding-top: 2rem;
   color: var(--darkest-grey);
+}
+
+/* rules page */
+
+.rules-page {
+  padding-top: 2rem;
+  margin-top: 4rem;
+  background-color: var(--bg-color);
+  height: 100%;
+  min-height: 100vh;
+  width: 100vw;
+  align-items: center;
+  gap: 1rem;
+}
+.rules-block {
+  width: 44rem;
+  height: 16rem;
+  padding: 2rem;
+  border-radius: 4px;
+  background-color: var(--white-color);
+}
+.instruction {
+  color: var(--dark-blue);
+}
+.rules-btn {
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+.instruction-list-item {
+  margin-bottom: 10px;
 }
