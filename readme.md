@@ -12,4 +12,4 @@ This web app is fully responsive.
 4. [Question page](https://ranger-quiz.netlify.app/question-page.html)
 5. [Result page](https://ranger-quiz.netlify.app/answer-page.html)
 
-[Animation](/gif/quiz-web-app.gif)
+![Animation](/gif/quiz-web-app.gif)
